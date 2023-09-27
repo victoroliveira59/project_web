@@ -10,3 +10,25 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #444;
 }
+section{
+    padding: 3rem 0 4rem 0;
+}
+
+h1{
+    font-size: 3rem;  /*Tamanho da fonte */
+    font-weight: normal; /*ignora o negrito por padrão do h1*/
+
+}
+
+.gray{
+    background: #f7f7f7;
+}
+
+.container{
+    max-width: 1000px; /*limite da expansão em pixels*/
+    margin: auto; /*Cria uma margem automatica*/
+}
+
+footer{
+    background: #3788bf;
+}
