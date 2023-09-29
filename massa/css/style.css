@@ -6,7 +6,176 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #444;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.logo.img{
+    width: 200px;
+}
+
+.sing-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sing-in button{
+    border: none;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password']{
+    width: 120px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+section{
+    padding: 3rem 0 4rem 0;
+}
+
+h1{
+    font-size: 2rem;  /*Tamanho da fonte */
+    font-weight: normal; /*ignora o negrito por padrão do h1*/
+}
+
+h1.titlle{
+    margin: 2rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.gray{
+    background: #f7f7f7;
+}
+
+.container{
+    max-width: 1000px; /*limite da expansão em pixels*/
+    margin: auto; /*Cria uma margem automatica*/
+}
+.hero{
+    width: 60%;
+    margin: auto;
+}
+
+.intro p{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+
+.intro .cta{
+    margin: 2rem 0;
+}
+
+.button{
+    background: #3396f3;
+    color: #f7f7f7;
+    padding: 10px 25px;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+}
+
+.button:hover{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.primary{
+    background: #3396f3;
+    color: white;
+
+}
+
+.secondery{
+    background: white;
+    color: #444;
+}
+
+.cards{ /*Alinha os botões e tranformas em cards*/
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {  /*Configuração do formato do botão*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 150px;
+    width: 18%;
+
+    border-radius: 10px;
+    text-align: center;
+    color: #f7f7f7;
+    font-size: 1.7rem;
+
+}
+
+.card.red{
+    background: red;
+}
+
+.card.purple{
+    background: purple;
+}
+
+.card.blue{
+    background: blue;
+}
+
+.card.orange{
+    background: darkorange;
+}
+
+.card.green{
+    background: green;
+}
+
+.menbers { /*Alinha os botões e tranformas em cards*/
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menber img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+}
+footer {
+    background: #3788bf;
+}
+
+footer ul{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+footer a{
+color: #f7f7f7;
+}
+
+footer p.copyright {
+    padding: 3rem 0;
+    color: #ffffffdd;
+    text-align: center;
+
 }
