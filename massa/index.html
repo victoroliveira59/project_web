@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt">
+<html lang="pt" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -15,77 +15,89 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,300&display=swap">
 </head>
 <body>
-<!--<header>-->
+<header>
 <!--    Class da imagem do logo principal-->
-<!--    <div class="Logo">-->
-<!--        <img src="images/logo.png" alt="Logo">-->
-<!--    </div>-->
+    <div class="Logo">
+        <img src="images/logo.png" alt="Logo">
+    </div>
 
-<!--    &lt;!&ndash;  Caixas para enserir o email e a senha de login  &ndash;&gt;-->
-<!--    <form class ='sing-in' action="#">-->
-<!--        <label>-->
-<!--            <input type="email" placeholder="Email">-->
-<!--        </label>-->
-<!--        <label>-->
-<!--            <input type="password">-->
-<!--        </label>-->
-<!--    &lt;!&ndash;Botão de entrar no login&ndash;&gt;-->
-<!--        <button type="submit"> Entrar</button>-->
-<!--    </form>-->
-<!--    </header>-->
+    <!--  Caixas para enserir o email e a senha de login  -->
+    <div class ='sing-in' >
+        <form action="#">
+            <label>
+                <input type="email" placeholder="Email">
+            </label>
+            <label>
+                <input type="password" placeholder="Senha">
+            </label>
+        <!--Botão de entrar no login-->
+            <button  type="submit" class="button primary"> Entrar </button>
+        </form>
+    </div>
+    </header>
     <main>
     <!--        Texto de subtitulo-->
         <section class="intro gray">
            <div class="container">
-               <h1>
-                   Ajudamos <strong>programadores</strong> a conseguirem seus <strong>primeiros empregos</strong>.
-               </h1>
+               <div class="hero">
+                   <h1>
+                       Ajudamos <strong>programadores</strong> a conseguirem seus <strong>primeiros empregos</strong>.
+                   </h1>
 
-               <p>
-                   Mais de 100 mil desenvlvedores já conseguiram o seu primeiro emprego usando a nossa plataforma.
-               </p>
-               <!--        Links para direcionar a pagina de inscrição -->
-               <a href="#">Sou programador</a>
-               <a href="#">Sou programador</a>
-           </div>
+                   <p>
+                       Mais de 100 mil desenvlvedores já conseguiram o seu primeiro emprego usando a nossa plataforma.
+                   </p>
+                   <div class="cta">
+                       <!--        Links para direcionar a pagina programadorde inscrição -->
+                       <a href="#" class="button primary" >Sou programador</a>
+                       <a href="#" class="button secondery" >Sou empresa contratando</a>
+                   </div>
+               </div>
+            </div>
         </section>
 
         <section class="languages">
-            <h1>linguagens</h1>
-            <div class="cards">
-                <div class="Ruby">Ruby</div>
-                <div class="JavaScript">JavaScript</div>
-                <div class="Elixir">Elixir</div>
-                <div class="Python">Python</div>
-                <div class="Go">Go</div>
+            <div class="container">
+                <h1 class='titlle'> Linguagens </h1>
+                    <div class="cards">
+                        <div class="card red">Ruby</div>
+                        <div class="card blue">JavaScript</div>
+                        <div class="card purple">Elixir</div>
+                        <div class="card orange">Python</div>
+                        <div class="card green">Go</div>
+                    </div>
             </div>
         </section>
 
         <section class="team gray">
-            <h1>Nosso Time</h1>
+            <div class="container">
+                <h1>Nosso Time</h1>
 
-            <div class="menbers">
-                <div class="menber"><img src="images/team/gus.jpg" height="400" width="400" alt="#"></div>
-                <div class="menber"><img src="images/team/hank.jpg" height="400" width="400" alt=""/></div>
-                <div class="menber"><img src="images/team/jesse.jpg" height="400" width="400" alt=""/></div>
-                <div class="menber"><img src="images/team/mike.jpg" height="400" width="400" alt=""/></div>
-                <div class="menber"><img src="images/team/saul.jpg" height="400" width="400" alt=""/></div>
-                <div class="menber"><img src="images/team/skyler.jpg" height="400" width="400" alt=""/></div>
-                <div class="menber"><img src="images/team/walter.jpg" height="400" width="400" alt=""/></div>
+                <div class="menbers">
+                    <div class="menber"><img src="images/team/gus.jpg" height="400" width="400" alt="#"></div>
+                    <div class="menber"><img src="images/team/hank.jpg" height="400" width="400" alt=""/></div>
+                    <div class="menber"><img src="images/team/jesse.jpg" height="400" width="400" alt=""/></div>
+                    <div class="menber"><img src="images/team/mike.jpg" height="400" width="400" alt=""/></div>
+                    <div class="menber"><img src="images/team/saul.jpg" height="400" width="400" alt=""/></div>
+                    <div class="menber"><img src="images/team/skyler.jpg" height="400" width="400" alt=""/></div>
+                    <div class="menber"><img src="images/team/walter.jpg" height="400" width="400" alt=""/></div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <ul>
-            <li><a href="#">Politica de privacidade</a></li>
-            <li><a href="#">Carreira</a></li>
-            <li><a href="#">Linkedin</a></li>
-            <li><a href="#">Youtube</a></li>
-            <li><a href="#">Facebook</a></li>
-        </ul>
-        <p>
-            Massa. Todos direitos reservados
-        </p>
+        <div class="container">
+            <ul>
+                <li><a href="#">Politica de privacidade</a></li>
+                <li><a href="#">Carreira</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+            <p class="copyright">
+                © Massa. Todos direitos reservados
+            </p>
+        </div>
     </footer>
 
 </body>
